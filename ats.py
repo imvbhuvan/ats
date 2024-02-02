@@ -85,7 +85,7 @@ Ensure adherence to the prescribed output format without any deviation.
 st.set_page_config(page_title="Resume Parsing System", page_icon=":rocket:")
 
 # Define header image
-header_image_path = r"C:\Users\imvbh\Desktop\LLMs\ats\header.webp"
+header_image_path = r"header.webp"
 header_image = Image.open(header_image_path)
 st.image(header_image, caption="Hello, Welcome to Resume Analyzer", use_column_width=True)
 #st.set_page_config(page_title="Resume Parsing System")
